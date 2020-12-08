@@ -1,0 +1,32 @@
+{
+  "name": "vscode-ios",
+  "version": "0.0.0",
+  "description": "An Amazing Capacitor App",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "ios-copy": "cap copy ios",
+    "ios-sync": "cap sync ios",
+    "snowpack": "snowpack",
+    "cap": "cap"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^2.4.4",
+    "@capacitor/core": "^2.4.4",
+    "@capacitor/ios": "^2.4.4"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.5",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-sass": "^1.1.2",
+    "@snowpack/plugin-webpack": "^2.1.2",
+    "snowpack": "^2.18.1"
+  }
+}

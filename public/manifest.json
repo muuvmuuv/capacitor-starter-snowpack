@@ -1,0 +1,15 @@
+{
+  "name": "App",
+  "short_name": "App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "19x17",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#31d53d",
+  "theme_color": "#31d53d"
+}
